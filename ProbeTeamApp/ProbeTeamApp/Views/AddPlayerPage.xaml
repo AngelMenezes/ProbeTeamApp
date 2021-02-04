@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProbeTeamApp.Views.AddPlayerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="EntryShirtNumber" Placeholder="Type the player shirt number" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EntryNickname" Placeholder="Type the player nickname" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EntryName" Placeholder="Type the player name" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EntryCpf" Placeholder="Type the player CPF" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EntryIDNumber" Placeholder="Type the player RG" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EntryDateOfBirth" Placeholder="Type the player date of birth" HorizontalOptions="FillAndExpand" />
+            <StackLayout Orientation="Horizontal" Spacing="30" HorizontalOptions="CenterAndExpand">
+                <Button x:Name="BtnAdd" Text="Add" Clicked="BtnAdd_Clicked"/>
+                <Button x:Name="BtnCancel" Text="Cancel" Clicked="BtnCancel_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProbeTeam.App.Domain\ProbeTeam.App.Domain.csproj" />
+    <ProjectReference Include="..\ProbeTeam.App.Infra.DataAccess\ProbeTeam.App.Infra.DataAccess.csproj" />
+    <ProjectReference Include="..\ProbeTeam.Common.Infra.Helper\ProbeTeam.Common.Infra.Helper.csproj" />
+  </ItemGroup>
+
+</Project>
